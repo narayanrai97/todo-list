@@ -1,11 +1,46 @@
-# React + Vite
+# My TODO App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my React TODO App that renders a title and an unordered list of todo items. The App is being built by using Vite, a frontend build tool and React.
 
-Currently, two official plugins are available:
+Examples of my TODO List:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<ul>
+    <li>review resources</li>
+    <li>take notes</li>
+    <li>code out app</li>
+</ul>
+
+
+</details>
+
+## Clone Repo
+
+```bash
+git clone https://github.com/narayanrai97/todo-list.git
+
+cd toto-list
+```
+## Installation Instructions
+
+Bootstrap a new project with command: ```bash npm create vite@latest . -- --template react```
+
+Install with command: 
+```bash npm install ```
+
+#### Compatibility Note
+
+```bash
+Vite requires Node.js version 20.19+, 22.12+. However, some templates require a higher Node.js version to work, please upgrade if your package manager warns about it.
+```
+
+## Start Development Server
+
+```bash
+npm run dev
+```
+Then, open a browser to the Local link (http://localhost:5173/) listed in the above CLI
+
+<details>
 
 ## Expanding the ESLint configuration
 
